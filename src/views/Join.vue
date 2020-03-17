@@ -2,7 +2,7 @@
   <div class="about">
     <Picture title="加入我们" :bakImg="bakImg">
       <div class="slogan">
-        <h2 style="font-size: 0.5rem;">携手途科科技, 共赢未来!</h2>
+        <h2 style="font-size: 0.5rem;">携手邦纬科技, 共赢未来!</h2>
         <span style="font-size: 0.35rem;">发送邮件至: jessie@chainnova.com</span>
       </div>
     </Picture>

@@ -3,7 +3,7 @@
     <Picture title="合作伙伴" :bakImg="bakImg" class="pic">
       <div class="slogan">
         <h2>携手共赢未来</h2>
-        <span class="slogan_span" style="font-size: 0.4rem;">与途科科技共同构建开源生态</span>
+        <span class="slogan_span" style="font-size: 0.4rem;">与邦纬科技共同构建开源生态</span>
       </div>
     </Picture>
     <div class="welcome">

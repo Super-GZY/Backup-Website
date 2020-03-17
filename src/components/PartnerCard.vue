@@ -2,7 +2,7 @@
   <div class="logo_partner">
     <div v-for="(item,index) in logoItem" :key="index">
       <el-card shadow="hover">
-        <a href>
+        <a :href='item.url' target="blank">
           <img :src="item.src" alt />
         </a>
       </el-card>
@@ -17,34 +17,44 @@ export default {
     return {
       logoItem: [
         {
-          src: require("../assets/i/19.png")
+          src: require("../assets/i/19.png"),
+          url:'https://www.linuxfoundation.org/'
         },
         {
-          src: require("../assets/i/20.png")
+          src: require("../assets/i/20.png"),
+          url:'https://www.hyperledger.org/'
         },
         {
-          src: require("../assets/i/21.png")
+          src: require("../assets/i/21.png"),
+          url:'https://www.ibm.com/'
         },
         {
-          src: require("../assets/i/22.png")
+          src: require("../assets/i/22.png"),
+          url:'http://www.chinabdh.com/'
         },
         {
-          src: require("../assets/i/24.png")
+          src: require("../assets/i/24.png"),
+          url:'https://www.ksyun.com/'
         },
         {
-          src: require("../assets/i/27.png")
+          src: require("../assets/i/27.png"),
+          url:'http://peernova.com/'
         },
         {
-          src: require("../assets/i/29.png")
+          src: require("../assets/i/29.png"),
+          url:'http://www.zhongnangroup.cn/'
         },
         {
-          src: require("../assets/i/30.png")
+          src: require("../assets/i/30.png"),
+          url:'http://www.pkubir.cn/'
         },
         {
-          src: require("../assets/i/31.png")
+          src: require("../assets/i/31.png"),
+          url:'http://www.tj-fintech.com/'
         },
         {
-          src: require("../assets/i/37.jpg")
+          src: require("../assets/i/37.jpg"),
+          url:'https://www.aliyun.com/'
         }
       ]
     };
@@ -56,7 +66,7 @@ export default {
 .logo_partner {
   display: flex;
   flex-wrap: wrap;
-  width: 76%;
+  width: 80%;
   .el-card {
     margin-top: 0.1rem;
     margin-left: 0.07rem;

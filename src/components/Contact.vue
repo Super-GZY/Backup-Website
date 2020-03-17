@@ -1,8 +1,8 @@
 <template>
   <div class="contact">
-    <h1>携手途科万源 共赢未来</h1>
+    <h1>携手邦纬科技 共赢未来</h1>
     <!-- <div class="content"> -->
-    <p>投资合作: zhengjiong@chainnova.com 联系我们: 18614067758 010-59575758</p>
+    <p><strong>投资合作</strong>: zhengjiong@chainnova.com <strong>联系我们</strong>: 15010989282 </p>
     <!-- </div> -->
   </div>
 </template>
