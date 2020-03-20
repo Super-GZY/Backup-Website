@@ -2,7 +2,7 @@
   <div class="contact">
     <h1>携手邦纬科技 共赢未来</h1>
     <!-- <div class="content"> -->
-    <p><strong>投资合作</strong>: zhengjiong@chainnova.com <strong>联系我们</strong>: 15010989282 </p>
+    <p><strong>投资合作</strong>: bitvee@outlook.com <strong>联系邮箱</strong>: wangyijia_hi@126.com</p>
     <!-- </div> -->
   </div>
 </template>
@@ -21,18 +21,21 @@
   h1 {
     font-size: 0.4rem;
   }
+  p{
+    font-size: 0.2rem
+  }
 }
 
 @media screen and(max-width: 768px) {
   .contact {
-    height: 4rem;
+    height: 6rem;
     h1 {
       font-size: 0.8rem;
     }
     p {
       font-size: 0.4rem;
       text-align: center;
-      width: 69%;
+      width: 56%;
     }
   }
 }

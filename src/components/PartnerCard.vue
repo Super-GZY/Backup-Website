@@ -25,36 +25,16 @@ export default {
           url:'https://www.hyperledger.org/'
         },
         {
-          src: require("../assets/i/21.png"),
-          url:'https://www.ibm.com/'
-        },
-        {
-          src: require("../assets/i/22.png"),
-          url:'http://www.chinabdh.com/'
-        },
-        {
-          src: require("../assets/i/24.png"),
-          url:'https://www.ksyun.com/'
-        },
-        {
-          src: require("../assets/i/27.png"),
-          url:'http://peernova.com/'
-        },
-        {
-          src: require("../assets/i/29.png"),
-          url:'http://www.zhongnangroup.cn/'
-        },
-        {
           src: require("../assets/i/30.png"),
-          url:'http://www.pkubir.cn/'
+          url:'http://www.pkusp.com.cn'
         },
         {
-          src: require("../assets/i/31.png"),
-          url:'http://www.tj-fintech.com/'
+          src: require("../assets/i/31.jpg"),
+          url:'https://amazonaws-china.com'
         },
         {
-          src: require("../assets/i/37.jpg"),
-          url:'https://www.aliyun.com/'
+          src: require("../assets/i/37.png"),
+          url:'https://cloud.digitalocean.com/'
         }
       ]
     };
@@ -72,15 +52,15 @@ export default {
     margin-left: 0.07rem;
   }
   img {
-    height: 0.85rem;
-    width: 2.7rem;
+    height: 0.75rem;
+    width: 2.8rem;
   }
 }
 
 @media screen and(max-width: 768px){
   .partner {
     .logo_partner {
-      justify-content: center;
+      // justify-content: center;
 
     //   width: 100%;
     }

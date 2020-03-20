@@ -1,7 +1,7 @@
 <template>
   <div class="nav">
     <router-link to="/">
-      <img src="../assets/i/logo_n.svg" class="logo_nav" />
+      <img src="../assets/i/logo_n.png" class="logo_nav" />
     </router-link>
     <el-dropdown @command='menu' placement='bottom' trigger="click">
       <img src="../assets/i/menu.png" class="menu" alt />
@@ -63,8 +63,9 @@ a {
   background-color: #fff;
   z-index: 9999;
   .logo_nav {
-    width: 1.75rem;
-    height: 0.5rem;
+    width: 2rem;
+    height: 0.7rem;
+    // border: 1px solid red
   }
   .menu {
     width: 1rem;
@@ -83,7 +84,7 @@ a {
     }
     .logo_nav {
       width: 3rem;
-      height: 1.5rem;
+      height: 1rem;
     }
   }
 }

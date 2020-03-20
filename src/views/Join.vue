@@ -3,14 +3,14 @@
     <Picture title="加入我们" :bakImg="bakImg">
       <div class="slogan">
         <h2 style="font-size: 0.5rem;">携手邦纬科技, 共赢未来!</h2>
-        <span style="font-size: 0.35rem;">发送邮件至: jessie@chainnova.com</span>
+        <span style="font-size: 0.35rem;">发送邮件至: wangyijia_hi@126.com</span>
       </div>
     </Picture>
     <div class="job">
       <div class="out">
         <div class="content" v-for="(item,index) in jobItems" :key="index">
-          <img :src="item.src" alt v-if="index%2==0" class="pc"/>
-          <img :src="item.src" alt class="mobile"/>
+          <!-- <img :src="item.src" alt v-if="index%2==0" class="pc"/> -->
+          <!-- <img :src="item.src" alt class="mobile"/> -->
           <div class="detail">
             <h1>{{item.title}}</h1>
             <h2>{{item.subtitle1}}</h2>
@@ -25,11 +25,11 @@
                 <span>{{value.detail}}</span>
               </li>
             </ul>
-            <a href>
+            <!-- <a href>
               <span>联系我们</span>
-            </a>
+            </a> -->
           </div>
-          <img :src="item.src" alt v-if="index%2!==0" class="pc" />
+          <!-- <img :src="item.src" alt v-if="index%2!==0" class="pc" /> -->
         </div>
         <div style="height:0.5rem"></div>
       </div>
@@ -46,143 +46,89 @@ export default {
       bakImg: require("../assets/upload/join_top.jpg"),
       jobItems: [
         {
-          title: "高级架构师",
+          title: "算法工程师",
           subtitle1: "岗位职责：",
           subtitle2: "职位要求：",
-          src: require("../assets/upload/23.png"),
+          // src: require("../assets/upload/23.png"),
           content1: [
             {
-              detail: "基于区块链的技术平台系统设计"
+              detail: "开发区块链应用平台"
             },
             {
-              detail: "对外技术输出"
-            },
-            {
-              detail: "主流区块链技术研究及转化"
-            },
-            {
-              detail: "HyperLedger中国工作组相关工作"
+              detail: "集成测试和单元测试 "
             }
           ],
           content2: [
             {
-              detail: "本科及五年以上研发经验"
+              detail: "对前沿技术有兴趣和热情"
             },
             {
-              detail: "扎实的基本功，如算法、网络、软件工程、数据结构等"
+              detail: "具备良好的沟通技巧，思维敏锐"
             },
             {
-              detail: "熟悉分布式计算、大数据分析、高可用集群等技术架构"
+              detail: "对算法和数据结构有深刻的理解，有良好的编程习惯"
             },
             {
-              detail: "拥有大型项目设计经验"
+              detail: "熟练掌握编程语言，如Java，Python或C/C++，有使用Linux环境的经验"
             },
             {
-              detail: "熟悉去中心化设计，分布式账本技术等优先"
+              detail: "有全栈开发经验者优先"
             },
             {
-              detail: "思路清晰，具备良好的团队凝聚能力"
+              detail: "985或211大学计算机，数学，电子，自动化本科及以上学位优先"
             }
           ]
         },
         {
-          title: "高级研发工程师",
+          title: "市场专员",
           subtitle1: "岗位职责：",
           subtitle2: "职位要求：",
-          src: require("../assets/upload/24.png"),
+          // src: require("../assets/upload/24.png"),
           content1: [
             {
-              detail: "基于区块链的项目平台相关功能进行研发，保证代码质量"
+              detail: "撰写整理公众号微博等社交媒体账号文章，完成选题策划实施等工作"
             },
             {
-              detail: "HyperLedger中国工作组相关工作"
+              detail: "社交账号、新媒体、媒体文章内容撰写、制作、发布"
             },
             {
-              detail: "对外提供API设计开发"
+              detail: "紧跟热点，搜集相关资料，进行内容编辑撰写"
             },
             {
-              detail: "负责性能优化、安全升级"
-            },
-            {
-              detail: "结合实际应用需求进行技术的改进与创新"
+              detail: "线上线下活动的策划、开展、跟进"
             }
           ],
           content2: [
             {
-              detail: "本科及三年以上研发经验"
+              detail: "本科及以上学历，市场营销相关经验优先"
             },
             {
-              detail: "扎实的基本功，如算法、网络、软件工程、数据结构等"
+              detail: "一年以上市场营销文案工作经验优先"
             },
             {
-              detail: "C/C++基础良好，Go/Python/Java等语言精通其一"
+              detail: "有优秀的活动创意策划能力"
             },
             {
-              detail: "熟悉HTTP原理及SQL，熟悉Unix/Linux 环境；"
+              detail: "热爱写作，有较强的文字功底"
             },
             {
               detail:
-                "有一定的软件工程基础，能够写清晰的代码，对代码质量有极高的追求；"
+                "有区块链行业从业经验，对区块链感兴趣者优先"
             },
             {
-              detail: "对新技术充满好奇心；对良好代码风格具有强迫症"
+              detail: "对前沿技术有兴趣和热情，善于学习，具有良好的分析和解决问题的能力，能快速理解业务和技术"
             },
             {
-              detail: "熟悉分布式计算、大数据分析、高可用集群等优先"
+              detail: "有良好的团队配合意识，良好的沟通能力、团队合作精神、能承担工作压力"
             },
             {
-              detail: "有大数据处理经验优先"
+              detail: "英文能力良好"
             },
             {
-              detail: "熟悉去中心化设计、分布式账本技术等优先"
-            },
-            {
-              detail: "思路清晰，具备良好的团队协作能力，乐于分享"
+              detail: "工作时间灵活，可以及时和海外团队沟通"
             }
           ]
         },
-        {
-          title: "商务BD",
-          subtitle1: "岗位职责：",
-          subtitle2: "职位要求：",
-          src: require("../assets/upload/27.png"),
-          content1: [
-            {
-              detail: "建立和维系公司重要客户及合作伙伴的关系"
-            },
-            {
-              detail: "协助处理对外商务、公共关系；负责商务活动的接洽安排"
-            },
-            {
-              detail:
-                "敏锐捕捉市场信息，结合公司资源，协助优化市场合作进程，推动合作达成"
-            },
-            {
-              detail: "建立有效的市场渠道，开拓和创新商务合作机会"
-            },
-            {
-              detail: "协助制定项目招投标方案，招投标资料的准备整理及标书制作"
-            },
-            {
-              detail: "完成总经理安排的其他工作"
-            }
-          ],
-          content2: [
-            {
-              detail: "本科及以上学历，年龄25—30岁"
-            },
-            {
-              detail: "3年以上销售或市场岗位工作经验；了解招投标流程"
-            },
-            {
-              detail: "熟悉商务接待流程，并能适应短期外地出差"
-            },
-            {
-              detail:
-                "有较强的组织、协调、人际交往能力及敏锐的洞察力，具备极强的执行力"
-            }
-          ]
-        }
       ]
     };
   },
@@ -199,6 +145,9 @@ export default {
   justify-content: center;
   .out {
     width: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
     .content {
       display: flex;
       justify-content: space-around;
@@ -240,6 +189,7 @@ export default {
   .job {
     .out {
       width: 90%;
+      display: inline;
       .content {
         //  align-items: flex-start;
         margin-top: 0.5rem;

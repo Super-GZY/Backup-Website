@@ -38,7 +38,7 @@ export default {
       tabItems: [
         {
           title: "FinTech金融行业解决方案",
-          src: require("../assets/upload/12.jpg"),
+          src: require("../assets/upload/bit.jpg"),
           content: [
             {
               detail:
@@ -55,7 +55,7 @@ export default {
         },
         {
           title: "供应链（商品）追踪溯源行业解决方案",
-          src: require("../assets/upload/13.jpg"),
+          src: require("../assets/upload/17.jpg"),
           content: [
             {
               detail:

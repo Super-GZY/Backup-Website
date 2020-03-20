@@ -13,11 +13,11 @@
     <div class="manager">
       <div class="title">
         <h1>管理团队</h1>
-        <span>邦纬科技团队核心人员来自于IBM、百度等大型科技互联网公司和系统安全公司，掌握大型网络分布式系统的核心技术，分别负责区块链、云计算相关技术研究、行业应用商业化开发，以及各领域业务拓展。</span>
+        <span>邦纬科技团队核心人员在区块链和数字资产耕耘多年，富有经验，掌握大型网络分布式系统的核心技术，分别负责区块链、云计算相关技术研究、行业应用商业化开发，以及各领域业务拓展。</span>
       </div>
       <div class="member">
         <div v-for="(item,index) in managerItem" :key="index" class="content">
-          <img :src="item.src" alt />
+          <!-- <img :src="item.src" alt /> -->
           <span class="name">{{item.name}}</span>
           <span class="position">{{item.position}}</span>
           <span class="details">{{item.details}}</span>
@@ -42,18 +42,25 @@ export default {
     return {
       managerItem: [
         {
-          src: require("../assets/upload/tlimg1.jpg"),
-          name: "董宁",
-          position: "邦纬科技 CEO",
+          // src: require("../assets/upload/tlimg1.jpg"),
+          name: "Sunny King",
+          position: "首席顾问",
           details:
-            "北京大学新一代信息技术研究院金融科技研究中心主任，邦纬科技（北京）数字科技有限公司CEO，工信部信通院“可信区块链”联盟副理事长，国际电联（ITU）分布式账本技术焦点组Champion，Hyperledger超级账本技术大使。曾任IBM中国实验室区块链业务负责人，IBMBlockchain中国社区发起人"
+            "区块技术的奠基人之一,被称为继中本聪之后区块链技术最具创新⼒的开发者之一，权益证明(Proof-of-State, PoS)共识机制之父；提供了最有突破性和原创性的共 识算法。2012年开发了第⼀条公链点点币（Peercoin），为⼈类开启了PoS共识的 ⼤门。2013年发布了 第⼆条链质数链(Primecoin)，使PoW在⽐特币的 基础上变得真正有意义，2019年发布了 VSYS(第⼀个SPOS共识)，将提供 更具操作性的数据库功能。Sunny King曾开创了全球市值前十的点点币和质数币，被全球区块链社区 与Vitalik Buterin和Daniel Larimer并称为区块链技术三大教主。"
         },
         {
-          src: require("../assets/upload/tlimg2.jpg"),
-          name: "谢文杰",
-          position: "邦纬科技 CTO",
+          // src: require("../assets/upload/tlimg2.jpg"),
+          name: "单华",
+          position: "CEO",
           details:
-            "原金山云产品总监，原百度移动事业部技术主管、百度移动战略参与者。IBM外部技术Champion，CSDN特聘专家。毕业于南京邮电大学计算机系，十余年大型软件技术架构经验，擅长高性能高可用服务设计，对云计算、移动APP、手游、社交、P2P网络等多种类型产品的开发运营均有深度研究。从14年开始研究区块链，对众多主流区块链技术平台均有深入研究，专注于区块链技术在海量数据以及高性能、高可用软件体系内的应用实践。"
+            "北京邮电大学计算机本科，芝加哥大学计算机硕士。曾任 Oracle 主任工程师，埃森哲高级咨询师等。从事区块链架构开发多年，曾参与多个基于POW和POS协议的公链技术开发 "
+        },
+        {
+          // src: require("../assets/upload/tlimg2.jpg"),
+          name: "海那尔",
+          position: "区块链应用核心开发人员",
+          details:
+            "北京大学信科系"
         }
       ],
       picItem: [
@@ -61,25 +68,13 @@ export default {
           src: require("../assets/upload/37.jpg")
         },
         {
-          src: require("../assets/upload/39.jpg")
-        },
-        {
-          src: require("../assets/upload/40.jpg")
-        },
-        {
-          src: require("../assets/upload/44.jpg")
-        },
-        {
           src: require("../assets/upload/47.png")
         },
         {
-          src: require("../assets/upload/49.jpg")
+          src: require("../assets/upload/39.jpg")
         },
-        {
-          src: require("../assets/upload/16.jpg")
-        }
       ],
-      bakImg: require("../assets/upload/about-bg.jpg")
+      bakImg: require("../assets/upload/about.jpg")
     };
   },
   components: {
@@ -114,13 +109,15 @@ export default {
   justify-content: center;
   align-items: center;
   .title {
-    text-align: center;
     width: 50%;
     h1 {
       color: white;
+      text-align: center;
     }
     span {
       color: #525f5d;
+      display:block;
+      text-indent:2em
     }
   }
 
@@ -132,7 +129,7 @@ export default {
     justify-content: space-around;
     flex-wrap: wrap;
     .content {
-      width: 40%;
+      width: 30%;
       display: flex;
       flex-direction: column;
       // justify-content: space-around;
@@ -153,6 +150,8 @@ export default {
       .details {
         color: #7b86bb !important;
         margin-top: 0.2rem;
+        text-indent: 2em;
+        letter-spacing: 0.01rem
       }
     }
   }
@@ -170,8 +169,8 @@ export default {
     justify-content: space-around;
     flex-wrap: wrap;
     img {
-      width: 2.5rem;
-      height: 1.5rem;
+      width: 3rem;
+      height: 2rem;
       margin-top: 0.3rem;
     }
   }

@@ -1,7 +1,7 @@
 <template>
   <div
     class="pic"
-    :style="{background: 'url('+bakImg+')',backgroundPosition:'50%',backgroundRepeat: 'no-repeat',backgroundSize: '100%'}"
+    :style="{background: 'url('+bakImg+')',backgroundPosition:'0% 30%',backgroundRepeat: 'no-repeat',backgroundSize: 'cover'}"
   >
     <div class="text">
       <h1>{{title}}</h1>

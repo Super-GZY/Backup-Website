@@ -19,7 +19,7 @@ npm run build
 ```
 ssh djangoadmin@128.199.70.58
 cd OfficialWebsite
-npm pull
+git pull
 npm run build
 ```
 

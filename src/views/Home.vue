@@ -1,6 +1,9 @@
 <template>
   <div class="home">
-    <Slider />
+    <!-- <Slider /> -->
+    <div class="home_bg">
+      <!-- <img src="../assets/upload/01.jpg" alt=""> -->
+    </div>
     <div class="about">
       <div class="title">
         <h1>关于我们</h1>
@@ -36,6 +39,14 @@ export default {
 
 <style lang="scss" scoped>
 .home {
+  .home_bg{
+      height: 6rem;
+      width: 100%;
+      background:url('../assets/upload/34.jpg') ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 10% 40%
+  }
   .about {
     display: flex;
     justify-content: space-around;

@@ -20,18 +20,18 @@ export default {
   data() {
     return {
       sliderItem: [
-        {
-          src: require("../assets/upload/41.jpg")
-        },
-        {
-          src: require("../assets/upload/01.jpg")
-        },
-        {
-          src: require("../assets/upload/34.jpg")
-        },
-        {
-          src: require("../assets/upload/36.jpg")
-        }
+        // {
+        //   src: require("../assets/upload/41.jpg")
+        // },
+        // {
+        //   src: require("../assets/upload/01.jpg")
+        // },
+        // {
+        //   src: require("../assets/upload/34.jpg")
+        // },
+        // {
+        //   src: require("../assets/upload/36.jpg")
+        // }
         // {
         //   src: require("../assets/upload/home-hero-1.mp4")
         // }
