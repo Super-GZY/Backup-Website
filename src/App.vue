@@ -3,7 +3,7 @@
     <Nav />
     <router-view class="main" />
     <Contact />
-    <Footer />
+    <!-- <Footer /> -->
   </div>
 </template>
 

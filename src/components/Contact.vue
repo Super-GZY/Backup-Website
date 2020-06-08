@@ -1,8 +1,9 @@
 <template>
   <div class="contact">
-    <h1>携手邦纬科技 共赢未来</h1>
+    <h1>携手我们 共赢未来！</h1>
+    <span>北京一大波网络科技有限公司</span>
     <!-- <div class="content"> -->
-    <p><strong>投资合作</strong>: bitvee@outlook.com <strong>联系邮箱</strong>: wangyijia_hi@126.com</p>
+    <!-- <p><strong>投资合作</strong>: bitvee@outlook.com <strong>联系邮箱</strong>: wangyijia_hi@126.com</p> -->
     <!-- </div> -->
   </div>
 </template>

@@ -1,6 +1,7 @@
 <template>
   <div class="nav">
-    <router-link to="/">
+    <h2>Stylika</h2>
+    <!-- <router-link to="/">
       <img src="../assets/i/logo_n.png" class="logo_nav" />
     </router-link>
     <el-dropdown @command='menu' placement='bottom' trigger="click">
@@ -26,7 +27,7 @@
       <el-menu-item index="/solution">解决方案</el-menu-item>
       <el-menu-item index="/partner">合作伙伴</el-menu-item>
       <el-menu-item index="/join">加入我们</el-menu-item>
-    </el-menu>
+    </el-menu> -->
   </div>
 </template>
 
