@@ -1,6 +1,9 @@
 <template>
   <div class="nav">
-    <h2>Stylika</h2>
+    <div class="slogon">
+      <img src="../assets/i/logo.png" alt />
+      <span>分享好物设计，从喜藩开始！</span>
+    </div>
     <!-- <router-link to="/">
       <img src="../assets/i/logo_n.png" class="logo_nav" />
     </router-link>
@@ -27,7 +30,7 @@
       <el-menu-item index="/solution">解决方案</el-menu-item>
       <el-menu-item index="/partner">合作伙伴</el-menu-item>
       <el-menu-item index="/join">加入我们</el-menu-item>
-    </el-menu> -->
+    </el-menu>-->
   </div>
 </template>
 
@@ -40,15 +43,24 @@ export default {
     };
   },
   methods: {
-   menu(value){
-       this.$router.push(value)
-    
-   }
+    menu(value) {
+      this.$router.push(value);
+    }
   }
 };
 </script>
 
 <style lang='scss' >
+.slogon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  img {
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+}
 a {
   text-decoration: none;
 }
@@ -79,7 +91,7 @@ a {
     display: none;
   }
   .nav {
-      height: 1.8rem;
+    height: 1.8rem;
     .menu {
       display: inline;
     }
