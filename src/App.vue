@@ -1,8 +1,8 @@
 <template>
   <div class="app">
-    <Nav />
+    <!-- <Nav /> -->
     <router-view class="main" />
-    <Contact />
+    <!-- <Contact /> -->
     <!-- <Footer /> -->
   </div>
 </template>
@@ -28,11 +28,11 @@ body {
   background-color: #fff;
 }
 .main {
-  margin-top: 0.9rem;
+  // margin-top: 0.9rem;
 }
 @media screen and(max-width: 768px) {
   .main {
-    margin-top: 1.8rem;
+    margin-top: 0.8rem;
   }
 }
 
