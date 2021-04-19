@@ -46,7 +46,7 @@
                 <div class="bottom_link_inner" v-if="false">
                     <a href="javascript:void(0)">用户协议</a>
                 </div>
-                <div class="bottom_link_inner" v-if="false">
+                <div class="bottom_link_inner" @click="$router.push('/protocol')">
                     <a href="javascript:void(0)">隐私政策</a>
                 </div>
                 <div class="bottom_link_inner">
