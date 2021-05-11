@@ -30,7 +30,7 @@
                     @mouseout="isShowAnd=false"
                 >
                     <img src="../static/android-card.png" alt="">
-                    <a href="http://app.stylika.online/Stylika.apk"
+                    <a href="http://app.stylika.online/android/Stylika.apk"
                     
                     >Android</a>
                 </div>
@@ -40,7 +40,7 @@
                     <div>对不起，ios用户</div>
                     <div>暂不支持下载</div>
                 </div>
-                <img class="and_img" src="../static/ma.jpg" v-if="isShowAnd" alt="">
+                <img class="and_img" src="../static/android_download_QRCode.png" v-if="isShowAnd" alt="">
             </div>
             <div class="bottom_link">
                 <div class="bottom_link_inner" v-if="false">
